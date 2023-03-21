@@ -47,8 +47,8 @@ export default async function handler(
       body: JSON.stringify({
         model: 'text-davinci-003',
         prompt: basePrompt,
-        temperature: 0.9,
-        max_tokens: 850
+        temperature: 0.6,
+        max_tokens: 700
       })
     })
     const itinerary = await response.json()
