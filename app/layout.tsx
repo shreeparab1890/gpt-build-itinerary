@@ -20,7 +20,13 @@ export default function RootLayout({
           <AnalyticsWrapper />
         </div>
         <footer className="footer" style={{ backgroundColor: "#1A2B48" }}>
-          <p style={{ color: "white" }}>Copyright © 2023 HinterScapes</p>
+          <div class="row">
+            <div class="col">
+              <p style={{ color: "white" }}>Made with ❤ in Goa</p>
+            </div>
+            <div class="col">
+              <p style={{ color: "white" }}>Copyright © 2023 HinterScapes</p>
+            </div>
         </footer>
       </body>
     </html>
