@@ -85,6 +85,12 @@ export default function Home() {
 
   return (
     <main>
+      <img
+        src="/hg_logo.png"
+        style={{ width: "190px" }}
+        alt="logo"
+        className="img-fluid"
+      />
       <div className="app-container">
         <h1 style={styles.header} className="hero-header">
           <span style={{ color: "#1A2B48" }}>HinterScapes</span>
