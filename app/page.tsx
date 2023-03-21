@@ -87,12 +87,13 @@ export default function Home() {
     <main>
       
       <div className="app-container" style={{ textAlign: "center" }}>
+        <a href="https://hinterscapes.com/" >
         <img
         src="/hg_logo.png"
         style={{ width: "280px", padding: "20px"}}
         alt="logo"
         className="img-fluid"
-      />
+          /></a>
         
         <h2 style={{ textAlign: "center", color: "#1A2B48" }}>
           Build Your Own Itinerary
