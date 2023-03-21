@@ -146,7 +146,7 @@ export default function Home() {
                   components={{
                     a: (props) => {
                       return (
-                        <a target="_blank" rel="no-opener" href={props.href}>
+                        <a target="_blank" rel="no-opener" href={props.href} style={{ color: "#E23535" }}>
                           {props.children}
                         </a>
                       );
