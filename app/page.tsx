@@ -86,17 +86,17 @@ export default function Home() {
   return (
     <main>
       
-      <div className="app-container">
+      <div className="app-container" style={{ textAlign: "center" }}>
         <img
         src="/hg_logo.png"
-        style={{ width: "240px"}}
+        style={{ width: "250px", padding: "20px"}}
         alt="logo"
         className="img-fluid"
       />
         
-        <h3 style={{ textAlign: "center", color: "#1A2B48" }}>
+        <h2 style={{ textAlign: "center", color: "#1A2B48" }}>
           Build Your Own Itinerary
-        </h3>
+        </h2>
         <div style={styles.formContainer} className="form-container">
           <input
             style={styles.input}
