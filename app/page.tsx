@@ -71,7 +71,7 @@ export default function Home() {
       setLoading(false);
     } catch (err) {
       console.log("error: ", err);
-      setMessage("");
+      setMessage("Server Occupied, Try Again Later");
     }
   }
 
