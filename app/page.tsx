@@ -89,7 +89,7 @@ export default function Home() {
       <div className="app-container" style={{ textAlign: "center" }}>
         <img
         src="/hg_logo.png"
-        style={{ width: "250px", padding: "20px"}}
+        style={{ width: "280px", padding: "20px"}}
         alt="logo"
         className="img-fluid"
       />
@@ -123,7 +123,7 @@ export default function Home() {
             onClick={hitAPI}
             style={{ backgroundColor: "#1A2B48", color: "white" }}
           >
-            Build Itinerary
+            GO
           </button>
         </div>
         <div className="results-container">
