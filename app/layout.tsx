@@ -14,7 +14,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body style={{ backgroundColor: "black" }}>
+      <body style={{ backgroundColor: "white" }}>
         <div className="wrapper">
           {children}
           <AnalyticsWrapper />
