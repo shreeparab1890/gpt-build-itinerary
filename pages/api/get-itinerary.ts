@@ -39,7 +39,7 @@ export default async function handler(
     days = 10
   }
 
-  let basePrompt = `what is an ideal itinerary for ${days} days in ${city}?`
+  let basePrompt = `what is an in detail ideal itinerary w.r.t. what to do in the Morning, afternoon, evening, and at night for ${days} days in ${city}?`
   try {
     const response = await fetch('https://api.openai.com/v1/completions', {
       method: 'POST',
