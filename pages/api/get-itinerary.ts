@@ -45,7 +45,7 @@ export default async function handler(
       method: 'POST',
       headers,
       body: JSON.stringify({
-        model: 'gpt-4-0314',
+        model: 'text-davinci-003',
         prompt: basePrompt,
         temperature: 0,
         max_tokens: 550
