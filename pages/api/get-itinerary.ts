@@ -48,7 +48,7 @@ export default async function handler(
         model: 'gpt-4-0314',
         prompt: basePrompt,
         temperature: 0,
-        max_tokens: 2500
+        max_tokens: 550
       })
     })
     const itinerary = await response.json()
