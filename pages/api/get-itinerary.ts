@@ -48,7 +48,8 @@ export default async function handler(
         model: 'gpt-3.5-turbo',
         prompt: basePrompt,
         temperature: 0,
-        max_tokens: 2000
+        max_tokens: 2000,
+        stream: true
       })
     })
     const itinerary = await response.json()
