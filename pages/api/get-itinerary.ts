@@ -39,7 +39,7 @@ export default async function handler(
     days = 10
   }
 
-  let basePrompt = `what is an in detail ideal itinerary w.r.t. what to do in the Morning, Afternoon, Evening and Night for ${days} days in ${city}?`
+  let basePrompt = `what is an ideal itinerary for ${days} days in ${city}?`
   try {
     const response = await fetch('https://api.openai.com/v1/completions', {
       method: 'POST',
@@ -48,7 +48,7 @@ export default async function handler(
         model: 'gpt-3.5-turbo',
         prompt: basePrompt,
         temperature: 0,
-        max_tokens: 2000,
+        max_tokens: 550,
         stream: true
       })
     })
