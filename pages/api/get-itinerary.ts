@@ -45,10 +45,10 @@ export default async function handler(
       method: 'POST',
       headers,
       body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
+        model: 'text-davinci-003',
         prompt: basePrompt,
         temperature: 0,
-        max_tokens: 550
+        max_tokens: 2500
       })
     })
     const itinerary = await response.json()
